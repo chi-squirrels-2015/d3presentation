@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/application.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="/css/application.css">
+
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+
+  <title></title>
+</head>
+<body>
+
+<nav>
+  <h1 id="header"><a href="/bikes">Bike Data</a></h1>
+  <div id="nav-choices">
+    <p><a class="total-docks" href="/bikes/total_docks">Total Docks</a></p>
+    <p><a class="available-bikes" href="/bikes/available_bikes">Available Bikes</a></p>
+    <p><a class="available-docks" href="/bikes/available_docks">Available Docks</a></p>
+  </div>
+  <hr id="clear-nav"></hr>
+</nav>
+
+
+    <div class="chart-total-docks">
+      <h2>Total Docks</h2><br>
+    </div>
+
+    <div class="chart-available-bikes">
+      <h2>Available Bikes</h2>
+    </div>
+
+    <div class="chart-available-docks">
+      <h2>Available Docks</h2>
+    </div>
+
+
+</body>
+</html>
